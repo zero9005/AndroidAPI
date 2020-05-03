@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.lifes.TestActivity"></activity>
-        <activity android:name=".activities.lifes.LifeActivity" />
+        <activity android:name=".activities.service.StartServiceActivity"></activity>
+        <activity
+            android:name=".activities.toast.ToastActivity"
+            android:label="Toast" />
+        <activity
+            android:name=".activities.lifes.LifeActivity"
+            android:label="生命周期" />
         <activity
             android:name=".activities.luanchactivity.DisplayMessageActivity"
             android:label="信息接收页" />
