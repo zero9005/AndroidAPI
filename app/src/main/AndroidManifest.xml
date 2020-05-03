@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.codewood.androidapi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.lifes.TestActivity"></activity>
+        <activity android:name=".activities.lifes.LifeActivity" />
+        <activity
+            android:name=".activities.luanchactivity.DisplayMessageActivity"
+            android:label="信息接收页" />
+        <activity
+            android:name=".activities.luanchactivity.SendActivity"
+            android:label="信息发送页" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
